@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML BY Hola Mundo</title>
+  </head>
+  <body>
+    <!-- Etiqueta heading -->
+    <h1>Practicing HTML</h1>
+    <h2>Practicing HTML</h2>
+    <h3>Practicing HTML</h3>
+    <h4>Practicing HTML</h4>
+    <h5>Practicing HTML</h5>
+    <h6>Practicing HTML</h6>
+
+    <!-- Etiqueta parrafo -->
+    <p>Chanchito feliz esta muy feliz</p>
+    <p>Chanchito triste esta muy triste</p>
+
+    <!-- Etiqueta de Separacion -->
+    <hr />
+
+    <!-- Etiqueta de comentarios -->
+    <!-- Este texto es un comentario y no va a aparecer en el explorador -->
+
+    <!-- Etiqueta de referencia -->
+    <span>Esta es una etiqueta de referencia</span>
+
+    <!-- Etiqueta de salto de linea -->
+    <br />
+
+    <!-- Etiqueta de hipervinculo -->
+    <a href="https://google.com.ar/">Ir a google</a>
+
+    <!-- Etiqueta de imagenes -->
+    <img src="https://www.rutaalaimagen.com.ar" alt="NombreImg" />
+
+    <!-- Etiqueta de formulario -->
+    <form action="/formulario" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+      <br />
+      <label for="nombre">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+      <br />
+      <textarea
+        name="comentario"
+        id="comentario"
+        placeholder="Ingrese un comentario"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <button type="submit">Tipo Submit</button>
+      <button type="reset">Tipo Reset</button>
+      <button type="button">Tipo Boton</button>
+    </form>
+
+    <!-- Etiqueta de lista Ordenadas y No Ordenadas-->
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+
+    <ol>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+      <li>
+        <ol>
+          <li>Sub elemento</li>
+          <li>Sub elemento</li>
+          <li>Sub elemento</li>
+        </ol>
+      </li>
+    </ol>
+
+    <!-- Etiqueta de tablas  -->
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hola beats</td>
+          <td>Gratis</td>
+        </tr>
+        <tr>
+          <td>Chanchito Feliz</td>
+          <td>$19.000</td>
+        </tr>
+        <tr>
+          <td>Chanchito Muy Feliz</td>
+          <td>$29.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td></td>
+        <td>Total $49.000</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
